@@ -5,9 +5,9 @@ body{
 
 }
 
-.board{
-    width: 300px;
-    height: 300px;
+#board{
+    width: 400px;               /* tavla*/
+    height: 400px;
     border: 10px solid black;
     background-color: grey;
 
@@ -16,8 +16,51 @@ body{
     flex-wrap: wrap;
 }
 
-.board div{
-    width: 50px;
+#board div{
+    width: 48px;    /*spel tavla är 400x400 stor. jag gör varje ruta på tavlan 50px. så det blir att tavlan har 8x8 rutor*/
+    height: 48px;      
+    border: 1px solid beige;   /*border är 1 px stor så jag gjorde tavlan 48 px där 1 px är border och 1px är extra*/
+    
+    font-size: 40px;           /*text*/
+    display: flex;
+    justify-content: center;   /*horizontel*/
+    align-items: center;       /*vertical*/
+}
+
+.tile-clicked{
+    background: whitesmoke;        /*visa att man tryckte på rutan*/
+}
+
+.flag-button{
+    width: 100px;
     height: 50px;
-    border: 1px solid beige;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+
+.b1{
+    color: blue;  /*färgen för olika värde på rutor*/
+}
+.b2{
+    color: green;
+}
+.b3{
+    color: red;
+}
+.b4{
+    color: darkred;
+}
+.b5{
+    color: black;
+}
+.b6{
+    color: darkviolet;
+}
+.b7{
+    color: yellow;
+}
+.b8{
+    color: darkgoldenrod;
 }
