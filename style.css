@@ -2,6 +2,7 @@ body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bolder;
     text-align: center;
+    background-color: blanchedalmond;
 
 }
 
@@ -19,7 +20,7 @@ body{
 #board div{
     width: 48px;    /*spel tavla är 400x400 stor. jag gör varje ruta på tavlan 50px. så det blir att tavlan har 8x8 rutor*/
     height: 48px;      
-    border: 1px solid beige;   /*border är 1 px stor så jag gjorde tavlan 48 px där 1 px är border och 1px är extra*/
+    border: 1px solid black;   /*border är 1 px stor så jag gjorde tavlan 48 px där 1 px är border och 1px är extra*/
     
     font-size: 40px;           /*text*/
     display: flex;
