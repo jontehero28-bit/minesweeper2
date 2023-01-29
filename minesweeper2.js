@@ -204,3 +204,4 @@ function checkTile(r, c) //checkar rutor genom deras id.
     }
     return 0;
 }
+//just nu så finns det en bug i spelet. När jag öppnar alla miner så står inte det "cleared vid mine-count" jag vet inte varför
