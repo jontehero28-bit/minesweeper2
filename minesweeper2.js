@@ -17,10 +17,6 @@ window.onload = function()    //ska genomföra det direkt efter sidan laddas kla
 
 function setMines()          //ställer ut miner och jag skriver id där minerna ska vara
 {
-    /*minesLocation.push("0-0");
-    minesLocation.push("0-1");
-    minesLocation.push("3-5");
-    minesLocation.push("1-2");*/
 
     let minesLeft = minesCount; //skapar en random number generator
     while (minesLeft > 0) 
@@ -99,7 +95,7 @@ function clickTile ()
 
     if (minesLocation.includes(tile.id))//ifall minesLocation har tile.id true då har man gått på en bomb och då är det game over. Förklarar hur det funkar längre ner
     {
-        //alert("GAME OVER");
+        alert("GAME OVER");
         gameOver = true;
         revealMines();
         return;
